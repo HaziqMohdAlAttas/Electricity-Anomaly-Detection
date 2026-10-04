@@ -49,3 +49,27 @@ Using an Isolation Forest model with a contamination value of 0.02, the model id
 The detected anomalies included both unusually high and unusually low electricity consumption.
 
 The analysis also showed variation in detected anomaly rates across the week, with Sunday having the highest detected anomaly rate and Thursday the lowest.
+
+
+## Visualisations
+
+### Electricity Usage and Detected Anomalies
+
+![Detected anomalies](results/detected_anomalies.png)
+
+### Monthly Electricity Usage and Detected Anomalies
+
+![Monthly anomalies](results/month_anomalies.png)
+
+### Effect of Contamination on Anomaly Detection
+
+![Contamination experiment](results/contamination_experiment.png)
+
+## Running the Project
+
+Clone the repository and install the required Python packages:
+
+```bash
+pip install pandas numpy matplotlib scikit-learn
+
+
